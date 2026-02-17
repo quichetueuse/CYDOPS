@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "quichetueuse/CYDOPS",
+  "pipelineDirectory": "CYDOPS",
+  "workspaceDirectory": "CYDOPS/CYDOPS",
+  "repositories": {
+    "quichetueuse/CYDOPS": {
+      "repositoryPath": "CYDOPS/CYDOPS",
+      "lastRunOn": "02/17/2026 10:13:28 +00:00"
+    }
+  },
+  "lastRunOn": "02/17/2026 10:13:28 +00:00"
+}
