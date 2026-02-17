@@ -14,6 +14,28 @@ select {
   padding: 10px;
   background-color: #6495ED;
 }
+body {
+    background-color: #e0e0e0; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.neumorphic-card {
+    padding: 20px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 20px #a3b1c6,
+                -10px -10px 20px #ffffff; /* Neumorphic shadows */
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.neumorphic-card:hover {
+    box-shadow: 5px 5px 15px #a3b1c6,
+                -5px -5px 15px #ffffff; /* Lighter shadows on hover */
+}
 </style>
 </head>
 <body>
@@ -35,5 +57,9 @@ select {
 <input type="file">
 <input type="checkbox">
 <input type="email">
+<div class="neumorphic-card">
+    <h2>Carte de test</h2>
+    <p>Petit texte de test pour voir le style de la page</p>
+</div>
 </body>
 </html>
